@@ -1,0 +1,81 @@
+﻿@model PaoloTestMS.Entities.ViewModel.LoadAudit
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>LoadAudit</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.AuditID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AuditID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Client)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Client)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Year)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Year)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RowCount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RowCount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TotalValue)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TotalValue)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsSuccess)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsSuccess)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ErrorMessage)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ErrorMessage)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TimeElapsed)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TimeElapsed) milliseconds
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Back to DataLoad", "Index")
+</p>

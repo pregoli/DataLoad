@@ -1,0 +1,7 @@
+C:\Users\paolo\Desktop\PaoloTestMS\PaoloTestMS.Services\bin\Debug\PaoloTestMS.Services.dll
+C:\Users\paolo\Desktop\PaoloTestMS\PaoloTestMS.Services\bin\Debug\PaoloTestMS.Services.pdb
+C:\Users\paolo\Desktop\PaoloTestMS\PaoloTestMS.Services\bin\Debug\PaoloTestMS.Entities.dll
+C:\Users\paolo\Desktop\PaoloTestMS\PaoloTestMS.Services\bin\Debug\PaoloTestMS.Entities.pdb
+C:\Users\paolo\Desktop\PaoloTestMS\PaoloTestMS.Services\obj\Debug\PaoloTestMS.Services.csprojResolveAssemblyReference.cache
+C:\Users\paolo\Desktop\PaoloTestMS\PaoloTestMS.Services\obj\Debug\PaoloTestMS.Services.dll
+C:\Users\paolo\Desktop\PaoloTestMS\PaoloTestMS.Services\obj\Debug\PaoloTestMS.Services.pdb

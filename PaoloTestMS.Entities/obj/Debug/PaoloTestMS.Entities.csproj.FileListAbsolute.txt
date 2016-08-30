@@ -1,0 +1,9 @@
+C:\Users\pregoli\Desktop\PaoloTestMS\PaoloTestMS.Entities\bin\Debug\PaoloTestMS.Entities.dll
+C:\Users\pregoli\Desktop\PaoloTestMS\PaoloTestMS.Entities\bin\Debug\PaoloTestMS.Entities.pdb
+C:\Users\pregoli\Desktop\PaoloTestMS\PaoloTestMS.Entities\obj\Debug\PaoloTestMS.Entities.csprojResolveAssemblyReference.cache
+C:\Users\pregoli\Desktop\PaoloTestMS\PaoloTestMS.Entities\obj\Debug\PaoloTestMS.Entities.dll
+C:\Users\pregoli\Desktop\PaoloTestMS\PaoloTestMS.Entities\obj\Debug\PaoloTestMS.Entities.pdb
+C:\Users\paolo\Desktop\PaoloTestMS\PaoloTestMS.Entities\bin\Debug\PaoloTestMS.Entities.dll
+C:\Users\paolo\Desktop\PaoloTestMS\PaoloTestMS.Entities\bin\Debug\PaoloTestMS.Entities.pdb
+C:\Users\paolo\Desktop\PaoloTestMS\PaoloTestMS.Entities\obj\Debug\PaoloTestMS.Entities.dll
+C:\Users\paolo\Desktop\PaoloTestMS\PaoloTestMS.Entities\obj\Debug\PaoloTestMS.Entities.pdb

@@ -1,0 +1,64 @@
+﻿@model IEnumerable<PaoloTestMS.Entities.ViewModel.DirectoryFile>
+
+@{
+    ViewBag.Title = "Files";
+}
+@section Scripts
+{
+    <script src="@Url.Content("~/Scripts/Download/Download.js")"></script>
+}
+
+<h2>DataLoad</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Size)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ClientID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Year)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LastModified)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Size)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ClientID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Year)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LastModified)
+        </td>
+        <td>
+            @if(item.IsValid)
+            { 
+                <a class="js-download btn btn-link" data-filename="@item.Name" href="#">Download</a>
+            }
+            else
+            {
+                <a class="js-download-invalid btn btn-link" data-filename="@item.Name" href="#">Download</a>
+            }
+
+        </td>
+    </tr>
+}
+
+</table>
